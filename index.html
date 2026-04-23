@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshankumar Rathva | Cybersecurity Enthusiast & Developer</title>
+  <meta name="description" content="Portfolio of Roshankumar Rathva — Cybersecurity Enthusiast, Full Stack Developer, and BCA Student building tools to protect the digital world.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- PARTICLES BG -->
+  <canvas class="particles" id="particles"></canvas>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">&lt;RR/&gt;</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge"><span class="dot"></span> Open to Opportunities</div>
+        <h1>Hi, I'm <span class="gradient">Roshankumar</span><br>Rathva</h1>
+        <p class="tagline">Cybersecurity Enthusiast &amp; Full Stack Developer — Passionate about protecting digital systems and fighting cyber threats.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary"><i class="fas fa-shield-halved"></i> View My Work</a>
+          <a href="#contact" class="btn-secondary"><i class="fas fa-envelope"></i> Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-frame">
+          <img src="roshan2.png" alt="Roshankumar Rathva">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-header reveal">
+      <p class="section-label">Get to Know Me</p>
+      <h2 class="section-title">About <span class="gradient">Me</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Roshankumar Rathva</strong>, a BCA student at <strong>Sigma University, Gujarat</strong>, passionate about cybersecurity and ethical hacking. I'm currently in my 6th semester and building skills to protect digital systems.</p>
+        <p>With hands-on experience in web application security, vulnerability assessment, and penetration testing, I combine my full-stack development skills with cybersecurity knowledge to build and secure applications.</p>
+        <p>I've built tools like <strong>PhishXray</strong> for phishing detection, <strong>FireGuard</strong> for firewall log analysis, and <strong>SHAKUNI</strong> for intelligent password wordlist generation — all focused on making the digital world safer.</p>
+        <div class="about-stats">
+          <div class="stat-card"><div class="number">4+</div><div class="label">Projects Built</div></div>
+          <div class="stat-card"><div class="number">2</div><div class="label">Internships</div></div>
+          <div class="stat-card"><div class="number">2026</div><div class="label">Graduating</div></div>
+        </div>
+      </div>
+      <div class="about-image-side reveal">
+        <div class="about-img-wrapper">
+          <img src="roshan2.png" alt="Roshankumar Rathva">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-header reveal">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title">My <span class="gradient">Skills</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <h3><span class="icon">🛡️</span> Cybersecurity</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">VAPT</span>
+          <span class="skill-tag">Web App Security</span>
+          <span class="skill-tag">SOC Analysis</span>
+          <span class="skill-tag">Threat Detection</span>
+          <span class="skill-tag">Network Analysis</span>
+          <span class="skill-tag">Ethical Hacking</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><span class="icon">💻</span> Programming & Web</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><span class="icon">🔧</span> Tools & Platforms</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Burp Suite</span>
+          <span class="skill-tag">Wireshark</span>
+          <span class="skill-tag">Kali Linux</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Windows</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-header reveal">
+      <p class="section-label">What I've Built</p>
+      <h2 class="section-title">My <span class="gradient">Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-icon">🔍</div>
+        <h3>PhishXray</h3>
+        <p>An open-source phishing detection tool that analyzes URLs, websites, and suspicious messages using ML and pattern recognition to protect users from online scams.</p>
+        <div class="project-tags"><span>Python</span><span>Machine Learning</span><span>Security</span></div>
+        <a href="https://github.com/ROSHANRTW" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-icon">🔥</div>
+        <h3>FireGuard — Firewall Log Analyzer</h3>
+        <p>A professional-grade, real-time Windows Firewall log analyzer and threat detection tool developed using Python and PyQt6.</p>
+        <div class="project-tags"><span>Python</span><span>PyQt6</span><span>Threat Detection</span></div>
+        <a href="https://github.com/ROSHANRTW" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-icon">🔱</div>
+        <h3>SHAKUNI — Password Mind Twister</h3>
+        <p>An intelligent password wordlist generator that twists your mind with creative and effective password combinations for ethical testing.</p>
+        <div class="project-tags"><span>Python</span><span>Cybersecurity</span><span>CLI Tool</span></div>
+        <a href="https://github.com/ROSHANRTW" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-icon">🔐</div>
+        <h3>Password Strength Checker</h3>
+        <p>A simple yet effective password strength checker built using Python — my very first program in cybersecurity!</p>
+        <div class="project-tags"><span>Python</span><span>Security</span><span>Beginner</span></div>
+        <a href="https://github.com/ROSHANRTW" target="_blank" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-header reveal">
+      <p class="section-label">Where I've Worked</p>
+      <h2 class="section-title">My <span class="gradient">Experience</span></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <h3>Cybersecurity Intern</h3>
+        <div class="company">UptoSkills</div>
+        <div class="duration"><i class="far fa-calendar"></i> Currently Working — 3 Months</div>
+        <p>Gaining hands-on experience in cybersecurity, threat analysis, and security operations in a professional environment.</p>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <h3>Cyber Security Intern — Web Application Security</h3>
+        <div class="company">Hacktify Cyber Security</div>
+        <div class="duration"><i class="far fa-calendar"></i> 1 Month</div>
+        <p>Completed a 4-week task-based internship focused on VAPT on real targets. Identified web vulnerabilities including SQLi, XSS, CSRF, IDOR, and CORS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-header reveal">
+      <p class="section-label">My Education</p>
+      <h2 class="section-title">Academic <span class="gradient">Background</span></h2>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-icon">🎓</div>
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <div class="school">Sigma University, Gujarat</div>
+      <div class="year">2023 – 2026 | 6th Semester (Final Year)</div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="section-header reveal">
+      <p class="section-label">Achievements</p>
+      <h2 class="section-title">My <span class="gradient">Certifications</span></h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏅</div>
+        <h3>Introduction to Cybersecurity</h3>
+        <div class="issuer">Cisco Networking Academy</div>
+        <a href="https://www.credly.com/badges/c2e765a0-f22f-4719-a685-8e02c9bf4ad2" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Badge</a>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🛡️</div>
+        <h3>Web Application Penetration Testing</h3>
+        <div class="issuer">Hacktify Cyber Security</div>
+        <a href="#" class="cert-link"><i class="fas fa-certificate"></i> Internship Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-header reveal">
+      <p class="section-label">Let's Connect</p>
+      <h2 class="section-title">Get In <span class="gradient">Touch</span></h2>
+    </div>
+    <div class="contact-content reveal">
+      <p>I'm always open to discussing cybersecurity, collaborating on projects, or exploring new opportunities. Feel free to reach out!</p>
+      <div class="social-links">
+        <a href="https://github.com/ROSHANRTW" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rathva-roshankumar-8b0437298/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/mr___roshu__rtw/" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.credly.com/badges/c2e765a0-f22f-4719-a685-8e02c9bf4ad2" target="_blank" class="social-link" title="Credly"><i class="fas fa-award"></i></a>
+      </div>
+      <a href="mailto:roshanrathva132@gmail.com" class="contact-email"><i class="fas fa-envelope"></i> roshanrathva132@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <span class="gradient">Roshankumar Rathva</span> &copy; 2026. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
